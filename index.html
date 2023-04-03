@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <header>
+        <h1>Microverse Application Form</h1>
+        <p>Welcome to Microverse student application form</p>
+      </header>
+      <main>
+        <form id="survey-form">
+          <div id="text-input">
+          <label id="name-label" for="name">
+            Name:
+            <input id="name" type="text" name="name" placeholder="Enter your full name" required>
+          </label>
+          <label id="email-label" for="email">
+            Email:
+            <input id="email" type="email" name="email" placeholder="Enter your email" required>
+          </label>
+          <label id="number-label" for="number">
+            Phone Number:
+            <input id="number" type="number" name="number" placeholder="Enter your phone number">
+          </label>
+          </div>
+          <p>
+            Which option best describes your current role?
+          </p>
+          <select id="dropdown" name="current-role" title="employment status">
+            <option disabled required value>
+              Select current role
+            </option>
+            <option value="student">
+              Student
+            </option>
+            <option value="job">
+              part time job
+            </option>
+            <option value="learner">
+              Full time job
+            </option>
+            <option value="preferNo">
+              not working
+            </option>
+            <option value="other">
+              Other
+            </option>
+          </select>
+          <div id="form-group" name="Wouldyou">
+            <p>Would you recommend Microverse to a friend?</p>
+            <label>
+              <input name="user-recommend" type="radio" value="definitely">
+              Definitely
+            </label><br/>
+            <label>
+              <input name="user-recommend" type="radio" value="maybe">
+              Maybe
+            </label><br/>
+            <label>
+              <input name="user-recommend" type="radio" value="Not-sure">
+              Not sure
+            </label><br/>
+          </div>
+          <div id="checkbox-menu">
+            <p>What job position looking for?</p>
+            <label>
+              <input type="checkbox" value="videos-quality">
+              front-end developer
+            </label><br/>
+            <label>
+              <input type="checkbox" value="videos-quantity">
+              back-end developer
+            </label><br/>
+            <label>
+              <input type="checkbox" value="site-style">
+              UI designer
+            </label><br/>
+          </div>
+          <div id="text-for-more">
+            <p> Tell us more
+            <textarea placeholder="Enter your comment here"></textarea>
+          </div>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+      </main>
+    </form>    
+  </main>
+</body>
+</html>
