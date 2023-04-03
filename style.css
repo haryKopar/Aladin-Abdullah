@@ -9,14 +9,14 @@ html{
 body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background-color: #996633;
+  background-color: #6495ed;
   color: #fff;
 }
 #text-input {
   line-height: 30px;
 }
 form {
-  background-color: 00ff00;
+  background-color: #40e0d0;
   width: 35%;
   margin: auto;
   padding: 1%;
@@ -24,7 +24,11 @@ form {
   text-align: left;
 }
 form p, label, button, option, textarea::placeholder, input::placeholder {
-  color: #996633;
+  color: #fff;
+  
+}
+textarea::placeholder, input::placeholder, button {
+ color: #1251c7;
 }
 p {
     margin-bottom: 5px;
@@ -60,6 +64,8 @@ textarea {
   resize: vertical;
   border-radius: 5px;
   border: none;
+  background-color: #6495ed;
+  
 }
 button {
   width: 100%;
